@@ -1,8 +1,7 @@
-import { applyIsOptionalDecorator } from "@nestjs/mapped-types"
 import { IsEmail, IsOptional, IsString } from "class-validator"
 
 
-export class UpdateUserDto{
+export class UpdateUserDto {
     @IsEmail()
     @IsOptional()
     @IsString()

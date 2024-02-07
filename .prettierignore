@@ -1,0 +1,15 @@
+/dist
+
+# Ignore artifacts:
+build
+coverage
+documentation
+logs
+node_modules
+src
+
+# Ignore all HTML files:
+*.html
+.gitignore
+.prettierignore
+.husky
